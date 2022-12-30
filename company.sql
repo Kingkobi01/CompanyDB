@@ -1,10 +1,21 @@
 -- Active: 1672432448801@@127.0.0.1@3306@company
 
 
-CREATE TABLE Branch_Supplier (
-    branch_id INT,
-    supplier_name VARCHAR(30),
-    supply_type VARCHAR(20)
-);
 
-SELECT * FROM `Branch_Supplier`
+
+
+
+
+
+
+INSERT INTO `Work_With` VALUES (105, 400, 55000);
+INSERT INTO `Work_With` VALUES (102, 401,  267000);
+INSERT INTO `Work_With` VALUES (108, 402, 22500);
+INSERT INTO `Work_With` VALUES (107, 403,  5000);
+INSERT INTO `Work_With` VALUES (108, 403,  12000);
+INSERT INTO `Work_With` VALUES (105, 404,  33000);
+INSERT INTO `Work_With` VALUES (107, 405, 26000);
+INSERT INTO `Work_With` VALUES (102, 406, 15000);
+INSERT INTO `Work_With` VALUES (105, 406, 130000);
+
+SELECT * FROM `Work_With`;
